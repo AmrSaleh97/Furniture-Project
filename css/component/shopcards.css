@@ -1,0 +1,69 @@
+.shopcard .shopimg {
+  position: relative;
+  border: 1px solid rgba(87, 86, 86, 0.151);
+  margin-bottom: 12px;
+}
+.shopcard .overlay i {
+  font-size: 12px;
+  background-color: white;
+  padding: 12px;
+  color: #666;
+  margin-bottom: 3px;
+  width: 36px;
+  text-align: center;
+}
+
+.shopcard .overlay {
+  position: absolute;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-color: #79787838;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.shopcard .shopimg:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+  z-index: 3;
+}
+.shopcard .shopimg:hover .overbtn {
+  right: 8px;
+}
+.shopcard .overlay .overbtn {
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  transition: all 0.5s;
+}
+.shopcard .shopimg:hover .overbtn {
+  right: 8px;
+}
+.shopcard .shoptext a {
+  font-size: 14px;
+  font-family: RobotoRegular;
+  text-transform: capitalize;
+}
+.rating i {
+  font-size: 10px !important;
+  color: goldenrod;
+  padding: 0 2px !important;
+}
+.shopcard .shoptext p {
+  color: #000;
+  font-family: RobotoBold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.arrivals .card-body {
+  padding-left: 15px;
+}
+.arrivals a {
+  color: #000;
+  font-family: RobotoMedium;
+}
+
+.arrivals a:hover {
+  color: rgb(133, 211, 211);
+}

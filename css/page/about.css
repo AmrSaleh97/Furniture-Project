@@ -1,0 +1,107 @@
+.aboutt h4 {
+  color: black;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.aboutt p {
+  color: #848484;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.8;
+  margin: 20px 0 40px;
+}
+.aboutt p i {
+  transform: rotate(180deg);
+  color: black;
+  position: relative;
+  top: -8px;
+}
+.aboutt .btnr:hover {
+  background-color: black;
+}
+.aboutt .progress{
+  margin-bottom: 25px ;
+}
+.tes {
+  background-image: url(../../img/bg-testimonial.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 60vh;
+  color: white;
+}
+.tes h5 {
+  padding-top: 30px;
+}
+.tes .tesimg img {
+  max-width: 120px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.tes p {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.8;
+  margin: 15px 0;
+}
+.tes h4 a {
+  font-size: 16px;
+  color: white;
+}
+.tes h4 a:hover {
+  color: rgb(133, 211, 211);
+}
+.team .teamcard {
+  border: 1px solid rgba(128, 128, 128, 0.342);
+}
+.team .teamimg {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+.team .teamcard img {
+  transition: all 0.5s;
+}
+
+.team .teamcard:hover img {
+  transform: scale(1.1);
+}
+
+.team .teamoverlay {
+  position: absolute;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 20%;
+  top: 110%;
+  padding: 8px 5px;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: 0;
+}
+.team .teamoverlay a {
+  margin: 0 6px;
+  color: black;
+}
+.team .teamcard:hover .teamoverlay {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+  top: 85%;
+}
+.team .teamtext h3 {
+  margin-top: 15px;
+}
+.team .teamtext h3 a {
+  color: black;
+}
+.team .teamtext h3 a:hover {
+  color: rgb(133, 211, 211);
+}
+.team .teamtext p {
+  color: #848484;
+}
+.team .teamtext #td1 {
+  font-style: italic;
+  font-size: 15px;
+  padding: 0 8px;
+}

@@ -1,0 +1,38 @@
+header .header-top {
+  border-bottom: 1px solid #ebebeb;
+}
+
+header .header-top .dropdown a {
+  position: relative;
+  display: inline-block;
+}
+
+header .header-top .dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 0;
+}
+
+header .header-top .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header .nav-item:hover .nav-link {
+  color: rgb(133, 211, 211);
+}
+header .header-top #ni1 {
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+}
+header .header-top a{
+  font-size: 14px;
+}
+header .header-top i {
+  padding-right: 4px;
+}
+header .header-bottom a {
+  text-transform: uppercase;
+  font-family: RobotoMedium;
+  margin: 0 6px;
+}

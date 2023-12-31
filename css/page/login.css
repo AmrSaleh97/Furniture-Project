@@ -1,0 +1,19 @@
+.log h2 {
+  font-size: 24px;
+}
+.log .form-check {
+  margin: 25px 0 0 15px;
+}
+.log .form-control {
+  box-shadow: none !important;
+  border-radius: 0;
+}
+.log .btnr {
+  padding: 10px 30px;
+}
+.log #btnl {
+  color: rgba(168, 168, 168, 0.897);
+}
+.log #btnl:hover {
+  color: rgb(133, 211, 211);
+}

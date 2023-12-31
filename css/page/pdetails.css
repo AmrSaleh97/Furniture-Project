@@ -1,0 +1,106 @@
+.det .sideimg img {
+  margin: 20px 0;
+  transition: all 0.5s;
+}
+.det #mainimg {
+  border: 1px solid rgba(128, 128, 128, 0.24);
+}
+.det .sideimg img:hover {
+  border: 1px solid #09c;
+}
+.det .dettext .rating a i {
+  color: black;
+  padding: 0 5px;
+}
+.det .dettext {
+  border-bottom: 1px solid #84848454;
+  margin-bottom: 15px;
+}
+.det .dettext .rating a {
+  color: black;
+  margin-left: 18px;
+}
+.det .dettext .rating a:hover {
+  color: rgb(133, 211, 211);
+}
+.det .dettext .rating a:hover i {
+  color: rgb(133, 211, 211);
+}
+.det .dettext p {
+  margin: 25px 0;
+  color: #848484;
+}
+.det .dettext #amount {
+  color: black;
+  font-size: 12px;
+}
+.det .dettext #amount1 {
+  color: green;
+  margin-right: 18px;
+  margin-left: 5px;
+}
+.det .dettext #amount2 {
+  color: red;
+}
+.det .detcart #price {
+  font-size: 36px;
+  font-family: RobotoBold;
+}
+
+.det .detcart .btnn {
+  padding: 15px 12px;
+}
+.det .detcart .btnn i {
+  padding: inherit !important;
+  border: 0 !important;
+  color: inherit !important;
+}
+.det .detcart .btnn:hover {
+  background-color: #535353;
+}
+.det .detcart .iconss {
+  margin-left: 15px;
+}
+.det .detcart .iconss i {
+  border: 1px solid #84848454;
+  padding: 15px;
+  color: #848484;
+  margin-top: 15px;
+  transition: all 0.3s;
+}
+.det .detcart .iconss .bt12 i:hover {
+  background-color: rgb(133, 211, 211);
+  color: white;
+}
+.det .detcart ul li {
+  padding: 0 8px;
+}
+.det .detcart p a {
+  color: #535353;
+  transition: all 0.3s;
+}
+.det .detcart p a:hover {
+  color: rgb(133, 211, 211);
+}
+.des .description {
+  border: 1px solid #84848452;
+  padding: 15px;
+}
+.des .description #pills-home-tab {
+  background-color: black;
+}
+
+.nav-pills .nav-link:active {
+  background-color: #535353;
+}
+.det .sociala a {
+  margin: 5px 4px;
+  padding: 12px 18px;
+  border: 1px solid #84848444;
+  color: black;
+  transition: all .5s;
+}
+.det .sociala a:hover{
+  color: white;
+  background-color: black;
+}

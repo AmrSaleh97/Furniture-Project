@@ -1,0 +1,82 @@
+@media screen and (max-width: 1440px) {
+  .log .login {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .case .caseimg img {
+    height: 300px;
+  }
+  .arrivals .call .shopcard {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .det .sideimg img {
+    display: none;
+  }
+  .arrivals .call .shopcard {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .det .sideimg img {
+    display: none;
+  }
+  header .header-top {
+    display: none;
+  }
+  header .navbar-brand {
+    max-width: 140px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .log .login {
+    width: 350px;
+  }
+
+  header .navbar-brand {
+    max-width: 140px;
+  }
+  header .header-top {
+    display: none;
+  }
+  .home .hometext h1 {
+    font-size: 26px;
+  }
+  .case .caseoverlay {
+    top: 10% !important;
+  }
+  .case .caseimg img {
+    height: 250px;
+  }
+  .det .sideimg img {
+    display: none;
+  }
+  .hometext h1 {
+    font-size: 28px;
+  }
+  .det .detcart .btnn {
+    font-size: 8px;
+    padding: 18px 12px;
+  }
+  .footerend p {
+    font-size: 10px;
+  }
+  .tab #tab2 {
+    left: 10px;
+    top: 20px;
+  }
+  .tab #simg2 {
+    height: 180px;
+  }
+  .log .login-end p {
+    width: 60%;
+    font-size: 14px;
+  }
+  .log .login-end button {
+    width: 40%;
+    padding: 2px;
+    height: 50px;
+  }
+}

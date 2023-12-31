@@ -1,0 +1,145 @@
+.blogg .date {
+  padding: 0 40px;
+  max-width: 160px;
+}
+
+.blogg .date1 {
+  background-color: rgb(133, 211, 211);
+  color: white;
+  padding: 8px;
+  margin: 25px 0;
+}
+
+.blogg .date h4 {
+  font-size: 22px;
+  padding: 0;
+}
+.blogg .date h6 {
+  font-size: 15px;
+  padding: 0;
+}
+.blogg .blogtext1 {
+  margin: 25px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.219);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.blogg .blogtext1 p {
+  padding: 12px 4px;
+  font-style: italic;
+  color: #66666693;
+}
+.blogg .blogtext1 i {
+  padding: 0 4px;
+}
+.blogg .blogtext1 a {
+  font-size: 14px;
+  color: rgb(133, 211, 211);
+}
+.blogg .blogtext .btnr:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.74);
+}
+.blogg .bloggtext {
+  color: #848484;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+.blogg .bloggtext .pad-p {
+  padding: 30px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  margin: 15px 0;
+  font-style: italic;
+}
+.blogg .bloggicons {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+.blogg .bloggicons p a {
+  color: #5d5d5d;
+  margin: 0 2px;
+}
+.blogg .bloggicons p a:hover {
+  color: rgb(133, 211, 211);
+}
+.blogg .bloggicons i {
+  padding: 10px;
+  background-color: #5d5d5d17;
+  margin: 0 4px;
+  transition: all 0.5s;
+}
+.blogg .bloggicons i:hover {
+  background-color: blue;
+  color: white;
+}
+.blogg .cattags {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  padding: 10px 0;
+}
+.blogg .cattags a {
+  padding: 2px 8px 2px 10px;
+  font-size: 12px;
+  margin: 4px 16px 4px 0;
+  color: #5d5d5d;
+  background-color: #f2f2f2;
+  transition: all 0.3s;
+}
+.blogg .cattags a:hover {
+  color: #85d3d3;
+}
+.blogg .comment {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  padding: 25px 0;
+}
+.blogg .card-body h5 {
+  font-family: RobotoRegular;
+  font-size: 14px;
+  color: black !important;
+}
+.blogg .card-body h5 a {
+  color: #85d3d3;
+  padding-right: 8px;
+  font-style: italic;
+  transition: all 0.2s;
+}
+.blogg .card-body h5 a:hover {
+  border-bottom: 1px solid #85d3d3;
+}
+.blogg .card-body p {
+  font-size: 14px;
+  color: #848484;
+  line-height: 1.8;
+}
+.blogg .endbtn .btnr {
+  margin: 0 3px;
+}
+.blogg .cardb {
+  border: 1px solid rgba(128, 128, 128, 0.315);
+  padding: 0px 12px 12px 12px;
+  margin-bottom: 15px;
+}
+.blogg .rightb h3 {
+  border-top: 2px solid #85d3d3;
+  padding-top: 12px;
+}
+.blogg .cardb li {
+  margin-bottom: 12px;
+}
+.blogg .cardb  a {
+  color: black;
+  font-size: 13px;
+}
+.blogg .cardb a:hover {
+  color: #85d3d3;
+}
+.blogg .cardb .card {
+  border: none;
+}
+.blogg .cardb p {
+  font-size: 14px;
+  margin: 0;
+  color: #5d5d5d;
+}
+.blogg .recentp i {
+  font-size: 12px;
+  color: #5d5d5d;
+  padding: 2px;
+}

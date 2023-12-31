@@ -1,0 +1,24 @@
+.con .context h5 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+.con .context h3 {
+  padding-bottom: 22px;
+  border-bottom: 1px solid #999;
+  font-size: 30px !important;
+  font-family: RobotoBold;
+}
+.con h4 {
+  font-family: RobotoLight;
+  font-size: 14px;
+}
+.con h4 i {
+  color: rgb(133, 211, 211);
+  font-size: 16px;
+  margin-right: 12px;
+}
+.con p {
+  color: #848484;
+  padding-bottom: 22px;
+  font-size: 14px;
+}

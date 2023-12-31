@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Log in</title>
+    <link rel="icon" href="img/favicon.ico" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 mt-3">
+              <p>
+                <span><i class="fa-solid fa-phone"></i></span> +189 284 5679
+              </p>
+            </div>
+            <div class="col-lg-7 ms-auto">
+              <nav class="navbar navbar-expand-lg">
+                <button
+                  class="navbar-toggler"
+                  type="hover"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        English
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">german</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">french</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        USD
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" id="di1" href="#">USD</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">EUR</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">AUD</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span><i class="fa-regular fa-heart"></i></span
+                        >wishlist</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html"
+                        ><span><i class="fa-solid fa-users"></i></span>login /
+                        sign up</a
+                      >
+                    </li>
+                    <li class="nav-item" id="ni1">
+                      <a class="nav-link" href="#"
+                        ><span><i class="fa-solid fa-cart-shopping"></i></span>0
+                        items - <span>$0.00</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">blog</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header End -->
+    <section class="whome d-flex align-items-center">
+      <div class="container">
+        <div class="hometext row text-center mt-5">
+          <h1>My Account</h1>
+          <div class="breadcrumbs d-flex justify-content-center">
+            <nav style="--bs-breadcrumb-divider: ' > '" aria-label="breadcrumb">
+              <ol class="breadcrumb align-items-center">
+                <li class="breadcrumb-item">
+                  <a href="index.html"> Home Furniture </a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  My Account
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="log p-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h2 class="mb-3">login</h2>
+            <form class="row g-3">
+              <div class="col-md-10">
+                <label for="inputEmail4" class="form-label"
+                  >Username or email address</label
+                >
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-md-10">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+
+              <div class="col-lg-12 d-flex">
+                <h4>
+                  <a href="#" type="submit" class="btnr">log in</a>
+                </h4>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <h2 class="mb-3">register</h2>
+            <form class="row g-3">
+              <div class="col-md-10">
+                <label for="inputEmail4" class="form-label"
+                  >Email address</label
+                >
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-md-10">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+
+              <div class="col-12">
+                <h4>
+                  <a href="#" type="submit" class="btnr">register</a>
+                </h4>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer start -->
+    <footer class="footer p-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-8 p-50">
+            <div class="footerlogo mb-5">
+              <img src="img/logo-funiture.png" alt="" />
+            </div>
+            <p>
+              Smart cities capacity building legal aid, resolve empowerment
+              thinkers who make change happen integrity hack assistance
+              initiative working.
+            </p>
+            <ul class="iconinfo">
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 868 Fake Street, New
+                York
+              </li>
+              <li><i class="fa-solid fa-phone"></i>(08) 8827 633354</li>
+              <li>
+                <i class="fa-regular fa-envelope"></i>support.theme-sky.com
+              </li>
+            </ul>
+            <div class="social">
+              <ul class="d-flex">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+                <li><i class="fa-brands fa-flickr"></i></li>
+                <li><i class="fa-brands fa-vimeo"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-9 p-50">
+            <div class="col-lg-8 col-md-10">
+              <h2>newsletter sign up</h2>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email address"
+                />
+                <span class="input-group-text m-0 p-0" id="mailicon"
+                  ><i class="fa-solid fa-paper-plane btnn"></i
+                ></span>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-8 p-50">
+              <div class="row p-50">
+                <div class="col-lg-4 col-md-8" id="footerul">
+                  <h3>categories</h3>
+                  <ul>
+                    <li><a href="#">All Brands</a></li>
+                    <li><a href="#">Fashion Clothing</a></li>
+                    <li><a href="#">Cosmetics & Beauty</a></li>
+                    <li><a href="#">Computers & Laptops</a></li>
+                    <li><a href="#">Smartphones & Tablets</a></li>
+                    <li><a href="#">Home Funiture</a></li>
+                    <li><a href="#">Food & Fruit</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-8" id="footerul">
+                  <h3>information</h3>
+                  <ul>
+                    <li><a href="#">Frequently Asked Questions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-8" id="footerul">
+                  <h3>Customer Service</h3>
+                  <ul>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Orders & Returns</a></li>
+                    <li><a href="#">RSS</a></li>
+                    <li><a href="#">Help & FAQs</a></li>
+                    <li><a href="#">Consultant</a></li>
+                    <li><a href="#">Store Locations</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerend">
+        <div class="container">
+          <div class="d-flex">
+            <p>© 2022 BoxShop. All Rights Reserved.Theme by theme-sky.com</p>
+            <div class="endimg ms-auto">
+              <img src="img/payment.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  -->
+    <!-- Js Start  -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Js End  -->
+  </body>
+</html>

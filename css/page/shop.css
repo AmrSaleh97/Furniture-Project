@@ -1,0 +1,51 @@
+.arrivals .shophead i {
+  padding: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  margin: 0 3px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.arrivals .shophead i:hover {
+  border: 1px solid rgb(133, 211, 211);
+}
+.arrivals .shophead .dropdown a {
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  border-radius: none;
+  font-size: 14px;
+}
+.arrivals .shophead p {
+  font-size: 14px;
+  padding: 10px 12px 0 0;
+}
+.arrivals .shophead #bd0 {
+  border: none;
+  padding-left: 12px;
+  font-size: 14px;
+
+  font-family: RobotoRegular;
+}
+.arrivals .sid .carb {
+  padding: 0 12px 12px 12px;
+  border: 1px solid rgba(128, 128, 128, 0.315);
+}
+.arrivals .sid .carb h3 {
+  padding: 12px 0 12px 12px;
+  border-top: 2px solid #85d3d3;
+}
+.arrivals .sid .accordion-button {
+  border: none;
+  background-color: transparent;
+  box-shadow: none  ;
+}
+.arrivals .sid p a{
+  font-size: 15px;
+  font-family: RobotoRegular;
+
+}
+.arrivals .sid li a {
+  padding-left: 22px !important;
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.63);
+}

@@ -1,0 +1,203 @@
+.arrivals h2 {
+  font-size: 30px;
+}
+.arrivals .btn1 button {
+  border: 1px solid #666;
+  background-color: white;
+  padding: 0 !important;
+}
+.arrivals i {
+  font-size: 15px;
+  padding: 0px 6px;
+}
+.arrivals h3 {
+  margin-bottom: 5px !important;
+}
+
+.tab .timg {
+  position: relative;
+  overflow: hidden;
+}
+.tab .timg img {
+  transition: all 0.5s;
+}
+.tab .timgoverlay {
+  z-index: 1;
+
+  position: absolute;
+}
+.tab #tab1 {
+  left: 30px;
+  top: 50px;
+}
+.tab #tab2 {
+  left: 130px;  
+  top: 30px;
+}
+.tab #tab3 {
+  left: 20px;
+  bottom: 40px;
+}
+.tab #tab4 {
+  right: 20px;
+  top: 30px;
+}
+.tab .simg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.case .caseimg img {
+  transition: all 0.6s;
+}
+.case .caseimg {
+  position: relative;
+  overflow: hidden;
+}
+.case .caseoverlay {
+  position: absolute;
+
+  z-index: 1;
+}
+.case #case1 {
+  left: 20%;
+  top: 35%;
+  max-width: 40%;
+}
+.case #case2 {
+  color: white;
+  right: 20%;
+  top: 35%;
+  max-width: 40%;
+
+  text-align: end;
+}
+.case #case1 a:hover {
+  background-color: tomato;
+}
+.case #case2 a:hover {
+  background-color: black;
+}
+.case .caseimg:hover img {
+  transform: scale(1.1);
+}
+
+.show .showimg {
+  position: relative;
+}
+.show .showimg .showoverlay {
+  position: absolute;
+
+  background-color: #66666660;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.show .showimg .showoverlay i {
+  position: relative;
+  inset: 50%;
+  font-size: 28px;
+  color: white;
+  transform: rotateY(180deg);
+  transition: all 0.5s;
+}
+.show .showimg:hover .showoverlay {
+  visibility: visible;
+  opacity: 1;
+}
+.show .showimg:hover i {
+  transform: rotateY(0deg);
+}
+.blogs .blogimg img {
+  position: relative;
+  z-index: -1;
+}
+.blogs .blogsimgover {
+  position: absolute;
+  background-color: #6666666c;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.blogs .blogsimgover:hover .blogsimgover {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+.blogs .blogsimgover i {
+  font-size: 25px;
+  inset: 50%;
+  position: relative;
+  color: white;
+}
+.blogs .blogtext #bt1 {
+  font-size: 24px;
+  color: #000;
+}
+.blogs .blogtext #bt1:hover {
+  color: rgb(133, 211, 211);
+}
+.blogs .blogtext .date {
+  background-color: rgb(133, 211, 211);
+  color: white;
+  padding: 10px 12px;
+  margin: 25px 0;
+  max-width: 160px;
+}
+
+.blogs .blogtext .date h6 {
+  font-size: 15px;
+}
+.blogs .blogtext1 {
+  margin: 25px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.219);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.blogs .blogtext1 p {
+  padding: 12px 4px;
+  font-style: italic;
+  color: #66666693;
+}
+.blogs .blogtext1 i {
+  padding: 0 4px;
+}
+.blogs .blogtext1 a {
+  font-size: 14px;
+  color: rgb(133, 211, 211);
+}
+.btnr:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.74);
+}
+.blogs .blogimg {
+  position: relative;
+}
+.blogs .blogimg .blogsimgover {
+  position: absolute;
+
+  background-color: #66666660;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.blogs .blogimg .blogsimgover i {
+  position: relative;
+  inset: 50%;
+  font-size: 28px;
+  color: white;
+  transform: rotateY(180deg);
+  transition: all 0.5s;
+}
+.blogs .blogimg:hover .blogsimgover {
+  visibility: visible;
+  opacity: 1;
+}
+.blogs .blogimg:hover i {
+  transform: rotateY(0deg);
+}
